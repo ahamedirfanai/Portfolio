@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@300&display=swap');
+
+.certificateContainer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin:200px 0;
+    align-items: center;
+}
+
+.certificateContainer > h1{
+    padding-bottom: 15px;
+}
+.certificateContainer > p{
+    padding-bottom: 5px;
+}
+
+.certificateContainer__certificate{
+    display: flex;
+    width: 60vw;
+    margin-top:50px;
+    flex-wrap: wrap;
+}

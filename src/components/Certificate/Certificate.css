@@ -1,0 +1,35 @@
+.Certificate > img{
+    width: 350px;
+    height:179px;
+}
+
+.Certificate{
+    margin: 15px;
+    width: 350px;
+    height: 179px;
+    transition: transform 100ms ease-in;
+   
+}
+
+.Certificate:hover{
+    color:white;
+    background-color: #2E4F4F;
+    transform: scaleX(1.05);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Certificate__content{
+    padding: 10%;
+
+}
+
+.Certificate__content > h4{
+    padding-bottom: 5px;
+}
+
+.Certificate__content > p{
+    font-size: 15px;
+}
