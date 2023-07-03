@@ -4,7 +4,7 @@ import './Certificate.css';
 const Certificate = ({img, title,desc}) => {
    const [show, setShow] = useState(false);
   return (
-  
+    <a href={link}>
     
     <div className="Certificate"
              onMouseEnter={()=> setShow(true)}
@@ -23,6 +23,7 @@ const Certificate = ({img, title,desc}) => {
 
 
             </div>
+            </a>
        
   );
 };

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Project from '../Project/Project.js';
 import "./ProjectContainer.css";
 import { Element } from 'react-scroll';
-import AiNextGen from "../../assets/AiNextGen.jpg";
+import Ecommerce from "../../assets/Ecommercee.jpg";
 
 
 const ProjectContainer = () => {
@@ -16,10 +16,10 @@ const ProjectContainer = () => {
       link:"https://ainextgen.netlify.app/",
     },
     {
-      img:AiNextGen,
-      title:"NextGen 2.0",
-      desc:"I am excited to present my latest project, a text-to-image generator utilizing the powerful OpenAI API. This cutting-edge technology generates highly realistic images based on user input and is built using the latest MERN stack technologies.",
-      link:"https://ainextgen.netlify.app/",
+      img:Ecommerce,
+      title:"E-Commerce",
+      desc:"In this e-commerce site, I successfully implemented an efficient shopping cart system using Stripe, which enables customers to effortlessly add items and update quantities. Additionally, I leveraged React and Redux to manage the state, and incorporated Sanity.io for content management purposes.",
+      link:"https://ahamedirfan-ecommerce.vercel.app/",
     },
   ];
 
