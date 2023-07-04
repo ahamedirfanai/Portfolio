@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Certificate.css';
 
-const Certificate = ({img, title,desc}) => {
+const Certificate = ({img, title,desc,link}) => {
    const [show, setShow] = useState(false);
   return (
     <a href={link}>

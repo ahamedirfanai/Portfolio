@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import Project from '../Project/Project.js';
 import "./ProjectContainer.css";
 import { Element } from 'react-scroll';
-import Ecommerce from "../../assets/Ecommercee.jpg";
+import ecommerce from "../../assets/Ecommerce.jpg";
+import AiNextGen from "../../assets/AiNextGen.jpg";
 
 
 const ProjectContainer = () => {
@@ -16,9 +17,9 @@ const ProjectContainer = () => {
       link:"https://ainextgen.netlify.app/",
     },
     {
-      img:Ecommerce,
-      title:"E-Commerce",
-      desc:"In this e-commerce site, I successfully implemented an efficient shopping cart system using Stripe, which enables customers to effortlessly add items and update quantities. Additionally, I leveraged React and Redux to manage the state, and incorporated Sanity.io for content management purposes.",
+      img:ecommerce,
+      title:"E-commerce",
+      desc:"In this e-commerce site, I successfully implemented an efficient shopping cart system using Stripe. Additionally, I leveraged React and Redux to manage the state, and incorporated Sanity.io for content management purposes.",
       link:"https://ahamedirfan-ecommerce.vercel.app/",
     },
   ];

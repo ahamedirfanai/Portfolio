@@ -8,8 +8,8 @@ const ExperienceContainer = () => {
     <Element className="experienceContainer" name="exp">
        <h1>Experience</h1>
        <div className="experienceContainer__info">
-         <Experience number="25+" title="clients" />
-         <Experience number="31" title="projects" style={{backgroundColor:"#DF2E38"}} />
+         <Experience number="27+" title="clients" />
+         <Experience number="32" title="projects" style={{backgroundColor:"#DF2E38"}} />
          <Experience number="5" title="Years of academic experience" />
         </div>
 
